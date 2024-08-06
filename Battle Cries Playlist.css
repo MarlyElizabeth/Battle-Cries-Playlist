@@ -7,16 +7,16 @@ body {
 
 @media only screen and (max-width: 600px) {
     .image-container {
-        flex-direction: column; /* Coloca las imágenes una debajo de la otra */
+        flex-direction: column; 
     }
     
     .image-container img {
-        max-width: 100%; /* Asegúrate de que las imágenes ocupen todo el ancho disponible */
-        margin-bottom: 20px; /* Añade espacio entre las imágenes */
+        max-width: 100%; 
+        margin-bottom: 20px;
     }
     
     .title, h1, h2, h3 {
-        font-size: 1.5em; /* Ajusta el tamaño del texto en pantallas pequeñas */
+        font-size: 1.5em; 
     }
 
     .quote {
@@ -29,11 +29,11 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap; /* Para que las imágenes se acomoden en varias líneas si es necesario */
+    flex-wrap: wrap; 
 }
 
 .image-container img {
-    max-width: 45%; /* Asegúrate de que las imágenes no ocupen más del 45% del ancho del contenedor */
+    max-width: 45%; 
     margin: 5px;
 }
 
