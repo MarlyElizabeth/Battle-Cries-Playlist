@@ -6,17 +6,21 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-    .image-container img {
-        max-width: 100%; /* Las imágenes ocupan todo el ancho disponible en pantallas pequeñas */
-        margin: 10px 0;
+    .image-container {
+        flex-direction: column; /* Coloca las imágenes una debajo de la otra */
     }
-
+    
+    .image-container img {
+        max-width: 100%; /* Asegúrate de que las imágenes ocupen todo el ancho disponible */
+        margin-bottom: 20px; /* Añade espacio entre las imágenes */
+    }
+    
     .title, h1, h2, h3 {
-        font-size: 1.5em; /* Reduce el tamaño de las fuentes en pantallas pequeñas */
+        font-size: 1.5em; /* Ajusta el tamaño del texto en pantallas pequeñas */
     }
 
     .quote {
-        padding: 10px; /* Ajusta el padding de las citas para que se vean mejor */
+        padding: 10px;
         font-size: 1em;
     }
 }
