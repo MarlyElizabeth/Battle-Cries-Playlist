@@ -311,6 +311,20 @@ body {
     border-radius: 10px;
 }
 
+.image-container img {
+    max-width: 100%;
+    height: auto; 
+    margin: 0 auto; 
+    display: block;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
 .testimonials {
     text-align: center;
     padding: 60px 20px;
