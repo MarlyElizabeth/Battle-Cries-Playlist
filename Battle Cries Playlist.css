@@ -4,12 +4,34 @@ body {
     background-color: #1a1a1a;
     color: #fff;
 }
+@media only screen and (max-width: 600px) {
+    .image-container img {
+        max-width: 100%; /* Las imágenes ocupan todo el ancho disponible en pantallas pequeñas */
+        margin: 10px 0;
+    }
 
-.container {
-    width: 100%;
-    max-width: 1200px; 
-    padding: 20px;
+    .title, h1, h2, h3 {
+        font-size: 1.5em; /* Reduce el tamaño de las fuentes en pantallas pequeñas */
+    }
+
+    .quote {
+        padding: 10px; /* Ajusta el padding de las citas para que se vean mejor */
+        font-size: 1em;
+    }
 }
+
+.image-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Para que las imágenes se acomoden en varias líneas si es necesario */
+}
+
+.image-container img {
+    max-width: 45%; /* Asegúrate de que las imágenes no ocupen más del 45% del ancho del contenedor */
+    margin: 5px;
+}
+
 
 .hero-section {
     background-image: url('https://i.pinimg.com/originals/16/2b/e3/162be3e8a7d3aa555e4bc723c8967e72.webp'); 
