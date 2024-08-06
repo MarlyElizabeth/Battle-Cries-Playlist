@@ -5,6 +5,12 @@ body {
     color: #fff;
 }
 
+.container {
+    width: 100%;
+    max-width: 1200px; 
+    padding: 20px;
+}
+
 .hero-section {
     background-image: url('https://i.pinimg.com/originals/16/2b/e3/162be3e8a7d3aa555e4bc723c8967e72.webp'); 
     background-size: cover;
